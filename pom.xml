@@ -60,8 +60,9 @@
 
 <plugin>
    <groupId>org.sonatype.plugins</groupId>
-   <artifactId>maven-deploy-plugin</artifactId>
-    <executions>
+   <artifactId>nexus-staging-maven-plugin</artifactId>
+   <version>1.5.1</version>
+   <executions>
       <execution>
          <id>default-deploy</id>
          <phase>deploy</phase>
@@ -70,6 +71,12 @@
          </goals>
       </execution>
    </executions>
+   <distributionManagement>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://localhost:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
 </plugin>
     </plugins>
   </build>
