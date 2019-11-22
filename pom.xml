@@ -71,13 +71,14 @@
          </goals>
       </execution>
    </executions>
-</plugin>
 <distributionManagement>
    <snapshotRepository>
       <id>SIMPLEMAVEN</id>
       <url>http://localhost:8081/repository/SIMPLEMAVEN/</url>
+      <layout>default</layout>
    </snapshotRepository>
 </distributionManagement>
+</plugin>
     </plugins>
   </build>
 
