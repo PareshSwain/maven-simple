@@ -72,6 +72,12 @@
       </execution>
    </executions>
 </plugin>
+<distributionManagement>
+   <snapshotRepository>
+      <id>SIMPLEMAVEN</id>
+      <url>http://localhost:8081/repository/SIMPLEMAVEN/</url>
+   </snapshotRepository>
+</distributionManagement>
     </plugins>
   </build>
 
