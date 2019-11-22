@@ -69,7 +69,6 @@
          <goals>
             <goal>deploy</goal>
          </goals>
-      </execution>
 <distributionManagement>
    <snapshotRepository>
       <id>SIMPLEMAVEN</id>
@@ -77,6 +76,7 @@
       <layout>default</layout>
    </snapshotRepository>
 </distributionManagement>
+      </execution>
    </executions>
 </plugin>
     </plugins>
