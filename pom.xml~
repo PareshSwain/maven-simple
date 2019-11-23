@@ -59,13 +59,4 @@
       </plugin>
     </plugins>
   </build>
-<distributionManagement>
-      <snapshotRepository>
-      <uniqueVersion>true</uniqueVersion>
-      <id>deployment</id>
-      <name>Deployment Snapshots</name>
-      <url>http://localhost:8081/repository/simplesnapshot/</url>
-      <layout>legacy</layout>
-    </snapshotRepository>
-    </distributionManagement>
 </project>
